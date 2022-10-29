@@ -1,5 +1,5 @@
 {
-  "Version": "2.4.0",
+  "Version": "2.4.1",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/shaka9817/shaka-update/main/shaka%20vpn",
   "EmailFeedback": "",
@@ -54,16 +54,6 @@
     "ProxyIP": "",
     "ProxyPort": "443",
     "Info": "Tlsws"
-    },
-    {
-      "Name": "Tim auth",
-      "FLAG": "tim",
-      "Payload": "GET wss://auth.of.c6bank.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "auth.of.c6bank.com.br",
-      "TlsIP": "auth.of.c6bank.com.br",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
     },
     {
       "Name": "Tim Signal",
