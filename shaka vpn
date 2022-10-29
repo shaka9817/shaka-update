@@ -1,0 +1,100 @@
+{
+  "Version": "2.4.0",
+  "ReleaseNotes": "",
+  "UrlUpdate": "https://paste.anasor.com/paste.php?raw&id=340298",
+  "Sms": "",
+  "EmailFeedback": "",
+  "UrlContato": "",
+  "UrlTermos": "",
+  "CheckUser": "true",
+  "Udp": [
+    {
+      "Porta": "7100"
+     },
+ {
+      "Porta": "7200"
+     },
+ {
+      "Porta": "7300"
+     },
+ {
+      "Porta": "7400"
+     }
+],
+  "Servers": [
+    {
+      "Name": "Qnax",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "qnax.lucaascv.tk",
+      "CheckUser": "",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+      },
+     {
+      "Name": "Caseira",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "pc.telksfree.tk",
+      "CheckUser": "",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    }
+  ],
+  "Networks": [
+    {
+    "Name": "Tim C6",
+    "FLAG": "tim",
+    "Payload": "GET wss://mobile.c6bank.app/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+    "SNI": "mobile.c6bank.app",
+    "TlsIP": "mobile.c6bank.app",
+    "ProxyIP": "",
+    "ProxyPort": "443",
+    "Info": "Tlsws"
+    },
+    {
+      "Name": "Tim auth",
+      "FLAG": "tim",
+      "Payload": "GET wss://auth.of.c6bank.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "auth.of.c6bank.com.br",
+      "TlsIP": "auth.of.c6bank.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "Tim Signal",
+      "FLAG": "tim",
+      "Payload": "GET wss://api.onesignal.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "api.onesignal.com",
+      "TlsIP": "api.onesignal.com",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "Tim Direct",
+      "FLAG": "tim",
+      "Payload": "http/ \n\n/",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "209.14.70.166",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "Vivo Direct",
+    "FLAG": "vivo",
+    "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+    "SNI": "",
+    "TlsIP": "",
+    "ProxyIP": "172.64.144.109",
+    "ProxyPort": "80",
+    "Info": "Proxy"
+    }
+  ]
+}
