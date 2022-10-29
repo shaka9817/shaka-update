@@ -1,5 +1,5 @@
 {
-  "Version": "2.4.5",
+  "Version": "2.4.7",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/shaka9817/shaka-update/main/shaka%20vpn",
   "EmailFeedback": "",
@@ -76,12 +76,12 @@
       "Info": "Proxy"
     },
     {
-      "Name": "Tim Direct 1",
+      "Name": "Tim Direct 2",
       "FLAG": "tim",
       "Payload": "http/ \n\n/",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "209.14.70.166",
+      "ProxyIP": "200.219.57.86",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
