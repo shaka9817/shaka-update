@@ -1,5 +1,5 @@
 {
-  "Version": "2.4.1",
+  "Version": "2.4.5",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/shaka9817/shaka-update/main/shaka%20vpn",
   "EmailFeedback": "",
@@ -66,7 +66,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "Tim Direct",
+      "Name": "Tim Direct 1",
       "FLAG": "tim",
       "Payload": "http/ \n\n/",
       "SNI": "",
@@ -76,14 +76,24 @@
       "Info": "Proxy"
     },
     {
-      "Name": "Vivo Direct",
-    "FLAG": "vivo",
-    "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-    "SNI": "",
-    "TlsIP": "",
-    "ProxyIP": "172.64.144.109",
-    "ProxyPort": "80",
-    "Info": "Proxy"
+      "Name": "Tim Direct 1",
+      "FLAG": "tim",
+      "Payload": "http/ \n\n/",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "209.14.70.166",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "Vivo Easy",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "172.64.144.109",
+      "ProxyPort": "80",
+      "Info": "Proxy"
     }
   ]
 }
